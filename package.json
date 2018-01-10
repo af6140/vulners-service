@@ -1,0 +1,43 @@
+{
+  "name": "vulners-service",
+  "version": "0.1.0",
+  "description": "CVE vulnerability service",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:af6140/vulners-service.git"
+  },
+  "keywords": [
+    "rest",
+    "spring",
+    "react"
+  ],
+  "author": "Dawei Wang",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/af6140/vulners-service/issues"
+  },
+  "homepage": "https://github.com/af6140/vulners-service",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rest": "^1.3.2",
+    "webpack": "^3.10.0",
+    "material-ui": "^0.20.0",
+    "redux": "^3.7.2",
+    "react-redux": "^5.0.6",
+    "redux-saga": "^0.16.0",
+    "react-markdown": "^3.1.4"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "uglifyjs-webpack-plugin": "^1.1.6"
+  }
+}

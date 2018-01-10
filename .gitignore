@@ -1,0 +1,15 @@
+.classpath
+.gradle/
+.project
+.settings/
+bin/
+build/
+target/
+.idea
+.vscode
+.mvn
+*.iml
+**/*.zip
+logs
+*.db
+node_modules
